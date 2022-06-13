@@ -7,20 +7,20 @@
     font-family: 'Monteserrat', sSSans-serif;
 }
 #logo{
-    width: 50%;
+    width: 10%;
+    
 }
 #footer{
     font: white;
     border: 2px solid black;
     font-size: 15px;
     font-family: 'Monteserrat', sans-serif;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
+    background-color: white;
+    color: #111;
+    text-align:justify;
 }
 #List {
     list-style-type: none;
@@ -30,6 +30,9 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
+  }
+  #Navigation-Bar{
+    position: fixed;
   }
   .Navigation {
     float: left;
@@ -56,6 +59,7 @@
     width:  44%;
     padding: 5px;
     border-radius: 10px;
+    margin-bottom: 40px;
   }
   .row-cervas{
     margin: 0;
@@ -71,6 +75,51 @@
     width: 50%;
     padding: 5px;
     border-radius: 10px;
+}
+.delivery{
+    width: 60%;
+}
+.delivery-right{
+    width: 300px;
+    float: right;
+}
+.button{
+    background-color: #333;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+.Depoimentos{
+    padding: 30px
+}
+.Chef-Depoimentos{
+     text-align: center;
+     vertical-align: middle;
+}
+#Helena{
+    width: 30%;
+    border-radius: 50%;
+    display: inline-block;  
+    text-align: center;
+}
+#Jacquin{
+    width: 30%;
+    border-radius: 50%;
+    display: inline-block;  
+    text-align: center;
+}
+#Fogaça{
+    width: 30%;
+    border-radius: 50%;
+    display: inline-block;  
+    text-align: center;
 }
 
 
