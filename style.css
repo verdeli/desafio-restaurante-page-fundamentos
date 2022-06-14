@@ -7,8 +7,9 @@
     font-family: 'Monteserrat', sSSans-serif;
 }
 #logo{
-    width: 10%;
-    
+    width: 30%;
+    float: right;
+        
 }
 #footer{
     font: white;
@@ -80,7 +81,7 @@
     width: 60%;
 }
 .delivery-right{
-    width: 300px;
+    width: 350px;
     float: right;
 }
 .button{
@@ -97,31 +98,59 @@
     margin-bottom: 1em;
 }
 .Depoimentos{
+    margin-top: 30em;
     padding: 30px
 }
-.Chef-Depoimentos{
+#Chef-Depoimentos{
      text-align: center;
-     vertical-align: middle;
+     width: 33;
+     
 }
-#Helena{
-    width: 30%;
-    border-radius: 50%;
-    display: inline-block;  
-    text-align: center;
+.Testemunho{
+  border: blue solid 3px;
+  width: 33%;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
 }
-#Jacquin{
-    width: 30%;
-    border-radius: 50%;
-    display: inline-block;  
-    text-align: center;
-}
-#Fogaça{
-    width: 30%;
-    border-radius: 50%;
-    display: inline-block;  
-    text-align: center;
+.container {
+  position: relative;
+  width: 50%;
 }
 
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-old {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 
 
